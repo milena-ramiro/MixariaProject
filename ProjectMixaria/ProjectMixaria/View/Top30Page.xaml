@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:ProjectMixaria.Util"
+             xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             mc:Ignorable="d"
+             x:Class="ProjectMixaria.View.Top30Page">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ByteArrayToImageConverter x:Key="severityTypeImageConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" >
+
+            <Image Style="{StaticResource imgCabec}" />
+
+            <Label Text="TOP 30"
+                   Style="{StaticResource lblCabec}"/>
+
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <AbsoluteLayout HorizontalOptions="FillAndExpand"
+                        VerticalOptions="FillAndExpand">
+
+            <StackLayout AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1" >
+
+                <StackLayout AbsoluteLayout.LayoutFlags="All"
+                             AbsoluteLayout.LayoutBounds="0,0,.2,.2"
+                             VerticalOptions="Start"
+                             HorizontalOptions="FillAndExpand"
+                             BackgroundColor="{Binding CorConexao}"
+                             IsVisible="{Binding IsConected}">
+
+                    <Label Text="{Binding StatusConexao}" TextColor="White"/>
+                </StackLayout>
+
+
+                <CollectionView ItemsSource="{Binding TopProdutos}"
+                                VerticalOptions="FillAndExpand"
+                                IsGrouped="False">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <ContentView IsEnabled="False">
+
+                                <Frame  Margin="2"
+                                        Padding="2"
+                                        BorderColor="White"
+                                        CornerRadius="4"
+                                        HasShadow="true" >
+
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="150" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*" />
+                                        </Grid.RowDefinitions>
+
+                                        
+                                        <Image Source="{Binding tbProduto.Imagem,Converter={StaticResource severityTypeImageConverter}}"
+                                               Grid.Column="0"/>
+                                        
+
+                                        <StackLayout HorizontalOptions="FillAndExpand"
+                                                     VerticalOptions="FillAndExpand"
+                                                     Grid.Column="1">
+
+                                            <Label Text="{Binding tbProduto.Descricao}"
+                                                   TextColor="Black"
+                                                   FontSize="22"
+                                                   HorizontalOptions="FillAndExpand" />
+
+
+                                            <Label Text="{Binding promocao, StringFormat='R$ {0:F}'}"
+                                                    TextColor="#9932CC"
+                                                    FontSize="24"
+                                                    LineHeight="1.25" />
+
+                                            <Label Text="{Binding tbEstab.Nome}"
+                                                    HorizontalOptions="FillAndExpand"
+                                                    FontSize="20"
+                                                    TextColor="Black"/>
+                                            
+                                        </StackLayout>
+                                    </Grid>
+                                </Frame>
+                            </ContentView>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+            </StackLayout>
+            
+            <StackLayout AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1" IsVisible="{Binding Erro}">
+
+                <local:GradientColorStack StartColor="#FFFFFF" EndColor="#9932CC" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" >
+                        <Image Source="BadRequest.png" WidthRequest="170" HeightRequest="170"/>
+                        <Label TextColor="#FFFFFF" Text="Oops..." />
+                        <Label TextColor="#FFFFFF" Text="Ocorreu um erro no processamento" />
+                    </StackLayout>
+                </local:GradientColorStack>
+
+            </StackLayout>
+
+            <StackLayout AbsoluteLayout.LayoutFlags="All"
+                         AbsoluteLayout.LayoutBounds="0,0,1,1" 
+                         IsVisible="{Binding Carregando}">
+                <forms:AnimationView 
+	                            x:Name="animationView" 
+	                            Animation="loading.json" 
+	                            Loop="True" 
+	                            AutoPlay="True"
+                                HorizontalOptions="FillAndExpand"
+                                VerticalOptions="FillAndExpand" />
+                <forms:AnimationView 
+	                            x:Name="animationView1" 
+	                            Animation="loading.json" 
+	                            Loop="True" 
+	                            AutoPlay="True"
+                                HorizontalOptions="FillAndExpand"
+                                VerticalOptions="FillAndExpand" />
+                <forms:AnimationView 
+	                            x:Name="animationView2" 
+	                            Animation="loading.json" 
+	                            Loop="True" 
+	                            AutoPlay="True"
+                                HorizontalOptions="FillAndExpand"
+                                VerticalOptions="FillAndExpand" />
+            </StackLayout>
+        </AbsoluteLayout>
+
+    </ContentPage.Content>
+</ContentPage>
