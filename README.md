@@ -1,3 +1,7 @@
+![GitHub top language](https://img.shields.io/github/languages/top/milena-ramiro/Mixaria)
+![GitHub language count](https://img.shields.io/github/languages/count/milena-ramiro/Mixaria)
+![GitHub](https://img.shields.io/github/license/milena-ramiro/Mixaria)
+
 # :money_with_wings: Mixaria
 ## Projeto Mixaria em Xamarin Forms
 
