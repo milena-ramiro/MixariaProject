@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbWebMixariaModelStoreContainer" CdmEntityContainer="dbWebMixariaEntities">
+    <EntitySetMapping Name="tbEstab">
+      <EntityTypeMapping TypeName="dbWebMixariaModel.tbEstab">
+        <MappingFragment StoreEntitySet="tbEstab">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="LogoTipo" ColumnName="LogoTipo" />
+          <ScalarProperty Name="Rua" ColumnName="Rua" />
+          <ScalarProperty Name="Nro" ColumnName="Nro" />
+          <ScalarProperty Name="Bairro" ColumnName="Bairro" />
+          <ScalarProperty Name="TipoEst" ColumnName="TipoEst" />
+          <ScalarProperty Name="Municipio" ColumnName="Municipio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbFabricante">
+      <EntityTypeMapping TypeName="dbWebMixariaModel.tbFabricante">
+        <MappingFragment StoreEntitySet="tbFabricante">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="LogoTipo" ColumnName="LogoTipo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbMunicipio">
+      <EntityTypeMapping TypeName="dbWebMixariaModel.tbMunicipio">
+        <MappingFragment StoreEntitySet="tbMunicipio">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="UF" ColumnName="UF" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbPromocao">
+      <EntityTypeMapping TypeName="dbWebMixariaModel.tbPromocao">
+        <MappingFragment StoreEntitySet="tbPromocao">
+          <ScalarProperty Name="Estab" ColumnName="Estab" />
+          <ScalarProperty Name="Produto" ColumnName="Produto" />
+          <ScalarProperty Name="Inicio" ColumnName="Inicio" />
+          <ScalarProperty Name="Fim" ColumnName="Fim" />
+          <ScalarProperty Name="Preco" ColumnName="Preco" />
+          <ScalarProperty Name="Promocao" ColumnName="Promocao" />
+          <ScalarProperty Name="Prioridade" ColumnName="Prioridade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbTipoEst">
+      <EntityTypeMapping TypeName="dbWebMixariaModel.tbTipoEst">
+        <MappingFragment StoreEntitySet="tbTipoEst">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbUsuario">
+      <EntityTypeMapping TypeName="dbWebMixariaModel.tbUsuario">
+        <MappingFragment StoreEntitySet="tbUsuario">
+          <ScalarProperty Name="estab" ColumnName="estab" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="senha" ColumnName="senha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbProdutos">
+      <EntityTypeMapping TypeName="dbWebMixariaModel.tbProdutos">
+        <MappingFragment StoreEntitySet="tbProdutos">
+          <ScalarProperty Name="ImagemTipo" ColumnName="ImagemTipo" />
+          <ScalarProperty Name="Imagem" ColumnName="Imagem" />
+          <ScalarProperty Name="Preco" ColumnName="Preco" />
+          <ScalarProperty Name="Estoque" ColumnName="Estoque" />
+          <ScalarProperty Name="FabricanteId" ColumnName="FabricanteId" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbTop30">
+      <EntityTypeMapping TypeName="dbWebMixariaModel.tbTop30">
+        <MappingFragment StoreEntitySet="tbTop30">
+          <ScalarProperty Name="item_top" ColumnName="item_top" />
+          <ScalarProperty Name="promocao" ColumnName="promocao" />
+          <ScalarProperty Name="preco" ColumnName="preco" />
+          <ScalarProperty Name="fim" ColumnName="fim" />
+          <ScalarProperty Name="inicio" ColumnName="inicio" />
+          <ScalarProperty Name="produto" ColumnName="produto" />
+          <ScalarProperty Name="estab" ColumnName="estab" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

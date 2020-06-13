@@ -1,0 +1,65 @@
+﻿@model EconomizeMais.tbPromocao
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Excluir</title>
+</head>
+<body>
+    <h3>Deseja realmente excluir o registro?</h3>
+
+    <div class="form-horizontal">
+
+        <div class="form-horizontal">
+            <h4>Promoção</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.estab)
+            @Html.HiddenFor(model => model.produto)
+            @Html.HiddenFor(model => model.inicio.Date)
+            @Html.HiddenFor(model => model.fim.Date)
+
+
+            <b>Estabelecimento:</b>
+            <br />
+            @Html.DisplayFor(model => model.tbEstab.nome)
+
+            <br />
+            <br />
+            <b>Produto:</b>
+            <br />
+            @Html.DisplayFor(model => model.tbProduto.descricao)
+
+            <br />
+            <br />
+            <b>Início:</b>
+            <br />
+            @Html.DisplayFor(model => model.inicio.Date)
+
+            <br />
+            <br />
+            <b>Fim:</b>
+            <br />
+            @Html.DisplayFor(model => model.fim.Date)
+
+            <br />
+            <br />
+
+        </div>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+
+            <input type="submit" value="Excluir" class="btn btn-default" />
+            <br />
+            <br />
+            @Html.ActionLink("Voltar", "Index");
+
+        }
+    </div>
+</body>
+</html>

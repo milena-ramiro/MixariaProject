@@ -1,0 +1,90 @@
+﻿@model EconomizeMais.tbTop30
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Alterar</title>
+</head>
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Produto</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.produto)
+        @Html.HiddenFor(model => model.estab)
+        @Html.HiddenFor(model => model.inicio.Date)
+        @Html.HiddenFor(model => model.fim.Date)
+
+
+        <b>Estabelecimento:</b>
+
+        @Html.DisplayFor(model => model.tbEstab.Nome)
+
+        <br />
+        <br />
+        <b>Produto:</b>
+
+        @Html.DisplayFor(model => model.tbProdutos.Descricao)
+
+        <br />
+        <br />
+
+        <b>Inicio:</b>
+
+        @Html.DisplayFor(model => model.inicio.Date)
+
+        <br />
+        <br />
+
+        <b>Fim:</b>
+
+        @Html.DisplayFor(model => model.fim.Date)
+
+        <br />
+        <br />
+
+
+        <b>Preço:</b>
+
+        @Html.EditorFor(model => model.preco, new { htmlAttributes = new { @class = "form-control", maxlength = "60", size = "60" } })
+        @Html.ValidationMessageFor(model => model.preco, "", new { @class = "text-danger" })
+
+        <br />
+
+        <b>Promoção:</b>
+
+        @Html.EditorFor(model => model.promocao, new { htmlAttributes = new { @class = "form-control", maxlength = "60", size = "60" } })
+        @Html.ValidationMessageFor(model => model.promocao, "", new { @class = "text-danger" })
+
+        <br />
+
+        <b>Posição Top 30:</b>
+
+        @Html.EditorFor(model => model.item_top, new { htmlAttributes = new { @class = "form-control", maxlength = "60", size = "60" } })
+        @Html.ValidationMessageFor(model => model.item_top, "", new { @class = "text-danger" })
+
+        <br />
+
+        <br />
+        <br />
+
+        <input type="submit" value="Gravar" class="btn btn-default" />
+
+    </div>
+    <br />
+    }
+
+    <div>
+        @Html.ActionLink("Voltar", "Catalogo")
+    </div>
+</body>
+</html>

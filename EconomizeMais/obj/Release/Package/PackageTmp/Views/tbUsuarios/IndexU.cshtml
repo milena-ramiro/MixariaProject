@@ -1,0 +1,56 @@
+﻿@model IEnumerable<EconomizeMais.tbUsuario>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Usuários</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="card-header">
+            <i class="fa fa-table"></i> <center> <h3>Cadastro de Usuários</h3> </center>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="1" border="1">
+                    <thead>
+                        <tr>
+                            <td align="left">
+                                <b>Estabelecimento</b>
+                            </td>
+                            <td align="left">
+                                <b>Nome</b>
+                            </td>
+                            <td align="left">
+                                <b>Usuário</b>
+
+                            </td>
+                            <td align="left">
+                                <b>Ações</b>
+
+                            </td>
+                        </tr>
+
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.tbEstab.Nome)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.nome)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.usuario)
+                                </td>
+                                <td>
+                                    @Html.ActionLink("Alterar Senha", "Edit2", new { id = item.usuario, estab = item.estab }) |
+                                </td>
+                            </tr>
+                        }
+
+                </table>
+</body>
+</html>

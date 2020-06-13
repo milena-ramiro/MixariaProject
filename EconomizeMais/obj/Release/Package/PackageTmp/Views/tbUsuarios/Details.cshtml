@@ -1,0 +1,42 @@
+﻿@model EconomizeMais.tbUsuario
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Detalhar</title>
+</head>
+<body>
+
+    <div class="form-horizontal">
+        <h4>Produto</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <b>Estabelecimento:</b>
+        <br />
+        @Html.DisplayFor(model => model.tbEstab.Nome)
+
+        <br />
+        <br />
+        <b>Usuário:</b>
+        <br />
+        @Html.DisplayFor(model => model.usuario)
+
+        <br />
+        <br />
+        <b>Nome:</b>
+        <br />
+        @Html.DisplayFor(model => model.nome)
+
+        <br />
+        <br />
+
+    </div>
+    <p>
+        @Html.ActionLink("Alterar", "Edit", new { id = Model.usuario, estab = Model.estab }) |
+        @Html.ActionLink("Voltar", "Catalogo")
+    </p>
+</body>
+</html>

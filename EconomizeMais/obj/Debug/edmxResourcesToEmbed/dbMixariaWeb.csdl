@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbMixariaWebModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="dbMixariaWebEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tbEstab" EntityType="dbMixariaWebModel.tbEstab" />
+    <EntitySet Name="tbMunicipio" EntityType="dbMixariaWebModel.tbMunicipio" />
+    <EntitySet Name="tbTipoEst" EntityType="dbMixariaWebModel.tbTipoEst" />
+    <AssociationSet Name="FK__tbEstab__Municip__0F975522" Association="dbMixariaWebModel.FK__tbEstab__Municip__0F975522">
+      <End Role="tbMunicipio" EntitySet="tbMunicipio" />
+      <End Role="tbEstab" EntitySet="tbEstab" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbEstab__TipoEst__0EA330E9" Association="dbMixariaWebModel.FK__tbEstab__TipoEst__0EA330E9">
+      <End Role="tbTipoEst" EntitySet="tbTipoEst" />
+      <End Role="tbEstab" EntitySet="tbEstab" />
+    </AssociationSet>
+    <EntitySet Name="tbUsuario" EntityType="dbMixariaWebModel.tbUsuario" />
+    <AssociationSet Name="FK__tbUsuario__Estab__1920BF5C" Association="dbMixariaWebModel.FK__tbUsuario__Estab__1920BF5C">
+      <End Role="tbEstab" EntitySet="tbEstab" />
+      <End Role="tbUsuario" EntitySet="tbUsuario" />
+    </AssociationSet>
+    <EntitySet Name="tbPromocao" EntityType="dbMixariaWebModel.tbPromocao" />
+    <AssociationSet Name="FK__tbPromoca__estab__1DE57479" Association="dbMixariaWebModel.FK__tbPromoca__estab__1DE57479">
+      <End Role="tbEstab" EntitySet="tbEstab" />
+      <End Role="tbPromocao" EntitySet="tbPromocao" />
+    </AssociationSet>
+    <EntitySet Name="tbProdutos" EntityType="dbMixariaWebModel.tbProdutos" />
+    <AssociationSet Name="FK__tbPromoca__produ__1ED998B2" Association="dbMixariaWebModel.FK__tbPromoca__produ__1ED998B2">
+      <End Role="tbProdutos" EntitySet="tbProdutos" />
+      <End Role="tbPromocao" EntitySet="tbPromocao" />
+    </AssociationSet>
+    <EntitySet Name="tbMercado" EntityType="dbMixariaWebModel.tbMercado" />
+    <AssociationSet Name="fk_mercado" Association="dbMixariaWebModel.fk_mercado">
+      <End Role="tbMercado" EntitySet="tbMercado" />
+      <End Role="tbProdutos" EntitySet="tbProdutos" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="tbEstab">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Rua" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Nro" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="Bairro" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TipoEst" Type="Int16" />
+    <Property Name="Municipio" Type="Int16" />
+    <NavigationProperty Name="tbMunicipio" Relationship="dbMixariaWebModel.FK__tbEstab__Municip__0F975522" FromRole="tbEstab" ToRole="tbMunicipio" />
+    <NavigationProperty Name="tbTipoEst" Relationship="dbMixariaWebModel.FK__tbEstab__TipoEst__0EA330E9" FromRole="tbEstab" ToRole="tbTipoEst" />
+    <NavigationProperty Name="tbUsuario" Relationship="dbMixariaWebModel.FK__tbUsuario__Estab__1920BF5C" FromRole="tbEstab" ToRole="tbUsuario" />
+    <NavigationProperty Name="tbPromocao" Relationship="dbMixariaWebModel.FK__tbPromoca__estab__1DE57479" FromRole="tbEstab" ToRole="tbPromocao" />
+  </EntityType>
+  <EntityType Name="tbMunicipio">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="UF" Type="String" Nullable="false" MaxLength="2" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="tbEstab" Relationship="dbMixariaWebModel.FK__tbEstab__Municip__0F975522" FromRole="tbMunicipio" ToRole="tbEstab" />
+  </EntityType>
+  <EntityType Name="tbTipoEst">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descricao" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tbEstab" Relationship="dbMixariaWebModel.FK__tbEstab__TipoEst__0EA330E9" FromRole="tbTipoEst" ToRole="tbEstab" />
+  </EntityType>
+  <Association Name="FK__tbEstab__Municip__0F975522">
+    <End Type="dbMixariaWebModel.tbMunicipio" Role="tbMunicipio" Multiplicity="0..1" />
+    <End Type="dbMixariaWebModel.tbEstab" Role="tbEstab" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbMunicipio">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="tbEstab">
+        <PropertyRef Name="Municipio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbEstab__TipoEst__0EA330E9">
+    <End Type="dbMixariaWebModel.tbTipoEst" Role="tbTipoEst" Multiplicity="0..1" />
+    <End Type="dbMixariaWebModel.tbEstab" Role="tbEstab" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbTipoEst">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="tbEstab">
+        <PropertyRef Name="TipoEst" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="tbUsuario">
+    <Key>
+      <PropertyRef Name="Estab" />
+      <PropertyRef Name="Usuario" />
+    </Key>
+    <Property Name="Estab" Type="Int32" Nullable="false" />
+    <Property Name="Nome" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="Usuario" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Senha" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tbEstab" Relationship="dbMixariaWebModel.FK__tbUsuario__Estab__1920BF5C" FromRole="tbUsuario" ToRole="tbEstab" />
+  </EntityType>
+  <Association Name="FK__tbUsuario__Estab__1920BF5C">
+    <End Type="dbMixariaWebModel.tbEstab" Role="tbEstab" Multiplicity="1" />
+    <End Type="dbMixariaWebModel.tbUsuario" Role="tbUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbEstab">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="tbUsuario">
+        <PropertyRef Name="Estab" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="tbPromocao">
+    <Key>
+      <PropertyRef Name="estab" />
+      <PropertyRef Name="produto" />
+      <PropertyRef Name="inicio" />
+      <PropertyRef Name="fim" />
+    </Key>
+    <Property Name="estab" Type="Int32" Nullable="false" />
+    <Property Name="produto" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="inicio" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="fim" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="preco" Type="Decimal" Nullable="false" Precision="8" Scale="2" />
+    <Property Name="promocao" Type="Decimal" Nullable="false" Precision="8" Scale="2" />
+    <Property Name="prioridade" Type="Byte" />
+    <NavigationProperty Name="tbEstab" Relationship="dbMixariaWebModel.FK__tbPromoca__estab__1DE57479" FromRole="tbPromocao" ToRole="tbEstab" />
+    <NavigationProperty Name="tbProdutos" Relationship="dbMixariaWebModel.FK__tbPromoca__produ__1ED998B2" FromRole="tbPromocao" ToRole="tbProdutos" />
+  </EntityType>
+  <Association Name="FK__tbPromoca__estab__1DE57479">
+    <End Type="dbMixariaWebModel.tbEstab" Role="tbEstab" Multiplicity="1" />
+    <End Type="dbMixariaWebModel.tbPromocao" Role="tbPromocao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbEstab">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="tbPromocao">
+        <PropertyRef Name="estab" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="tbProdutos">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Descricao" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="MercadoId" Type="Int32" Nullable="false" />
+    <Property Name="Estoque" Type="Int32" />
+    <Property Name="Preco" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="Imagem" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="IsTop30" Type="Boolean" />
+    <Property Name="ImagemTipo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tbPromocao" Relationship="dbMixariaWebModel.FK__tbPromoca__produ__1ED998B2" FromRole="tbProdutos" ToRole="tbPromocao" />
+    <NavigationProperty Name="tbMercado" Relationship="dbMixariaWebModel.fk_mercado" FromRole="tbProdutos" ToRole="tbMercado" />
+  </EntityType>
+  <Association Name="FK__tbPromoca__produ__1ED998B2">
+    <End Type="dbMixariaWebModel.tbProdutos" Role="tbProdutos" Multiplicity="1" />
+    <End Type="dbMixariaWebModel.tbPromocao" Role="tbPromocao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbProdutos">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="tbPromocao">
+        <PropertyRef Name="produto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="tbMercado">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Logo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="LogoTipo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tbProdutos" Relationship="dbMixariaWebModel.fk_mercado" FromRole="tbMercado" ToRole="tbProdutos" />
+  </EntityType>
+  <Association Name="fk_mercado">
+    <End Type="dbMixariaWebModel.tbMercado" Role="tbMercado" Multiplicity="1" />
+    <End Type="dbMixariaWebModel.tbProdutos" Role="tbProdutos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbMercado">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="tbProdutos">
+        <PropertyRef Name="MercadoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

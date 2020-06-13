@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbEconomizeeMaisModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tbEstab">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="tipoEst" Type="Int16" />
+    <Property Name="rua" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nro" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="bairro" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="municipio" Type="Int16" />
+    <NavigationProperty Name="tbMunicipio" Relationship="Self.FK__tbEstab__municip__09DE7BCC" FromRole="tbEstab" ToRole="tbMunicipio" />
+    <NavigationProperty Name="tbTipoEst" Relationship="Self.FK__tbEstab__tipoEst__08EA5793" FromRole="tbEstab" ToRole="tbTipoEst" />
+    <NavigationProperty Name="tbPromocao" Relationship="Self.FK__tbPromoca__estab__173876EA" FromRole="tbEstab" ToRole="tbPromocao" />
+    <NavigationProperty Name="tbUsuario" Relationship="Self.FK__tbUsuario__estab__1CF15040" FromRole="tbEstab" ToRole="tbUsuario" />
+  </EntityType>
+  <EntityType Name="tbMunicipio">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="uf" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="tbEstab" Relationship="Self.FK__tbEstab__municip__09DE7BCC" FromRole="tbMunicipio" ToRole="tbEstab" />
+  </EntityType>
+  <EntityType Name="tbPromocao">
+    <Key>
+      <PropertyRef Name="estab" />
+      <PropertyRef Name="produto" />
+      <PropertyRef Name="inicio" />
+      <PropertyRef Name="fim" />
+    </Key>
+    <Property Name="estab" Type="Int32" Nullable="false" />
+    <Property Name="produto" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="inicio" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="fim" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="preco" Type="Decimal" Precision="8" Scale="2" Nullable="false" />
+    <Property Name="promocao" Type="Decimal" Precision="8" Scale="2" Nullable="false" />
+    <Property Name="prioridade" Type="Byte" />
+    <NavigationProperty Name="tbEstab" Relationship="Self.FK__tbPromoca__estab__173876EA" FromRole="tbPromocao" ToRole="tbEstab" />
+    <NavigationProperty Name="tbProduto" Relationship="dbEconomizeeMaisModel.FK__tbPromoca__produ__182C9B23" FromRole="tbPromocao" ToRole="tbProduto" />
+  </EntityType>
+  <EntityType Name="tbTipoEst">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="descricao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="tbEstab" Relationship="Self.FK__tbEstab__tipoEst__08EA5793" FromRole="tbTipoEst" ToRole="tbEstab" />
+  </EntityType>
+  <EntityType Name="tbUsuario">
+    <Key>
+      <PropertyRef Name="estab" />
+      <PropertyRef Name="usuario" />
+    </Key>
+    <Property Name="estab" Type="Int32" Nullable="false" />
+    <Property Name="nome" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="usuario" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="senha" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="tbEstab" Relationship="Self.FK__tbUsuario__estab__1CF15040" FromRole="tbUsuario" ToRole="tbEstab" />
+  </EntityType>
+  <Association Name="FK__tbEstab__municip__09DE7BCC">
+    <End Role="tbMunicipio" Type="Self.tbMunicipio" Multiplicity="0..1" />
+    <End Role="tbEstab" Type="Self.tbEstab" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbMunicipio">
+        <PropertyRef Name="codigo" />
+      </Principal>
+      <Dependent Role="tbEstab">
+        <PropertyRef Name="municipio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbEstab__tipoEst__08EA5793">
+    <End Role="tbTipoEst" Type="Self.tbTipoEst" Multiplicity="0..1" />
+    <End Role="tbEstab" Type="Self.tbEstab" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbTipoEst">
+        <PropertyRef Name="codigo" />
+      </Principal>
+      <Dependent Role="tbEstab">
+        <PropertyRef Name="tipoEst" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbPromoca__estab__173876EA">
+    <End Role="tbEstab" Type="Self.tbEstab" Multiplicity="1" />
+    <End Role="tbPromocao" Type="Self.tbPromocao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbEstab">
+        <PropertyRef Name="codigo" />
+      </Principal>
+      <Dependent Role="tbPromocao">
+        <PropertyRef Name="estab" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbUsuario__estab__1CF15040">
+    <End Role="tbEstab" Type="Self.tbEstab" Multiplicity="1" />
+    <End Role="tbUsuario" Type="Self.tbUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbEstab">
+        <PropertyRef Name="codigo" />
+      </Principal>
+      <Dependent Role="tbUsuario">
+        <PropertyRef Name="estab" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="dbEconomizeeMais" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tbEstab" EntityType="Self.tbEstab" />
+    <EntitySet Name="tbMunicipio" EntityType="Self.tbMunicipio" />
+    <EntitySet Name="tbPromocao" EntityType="Self.tbPromocao" />
+    <EntitySet Name="tbTipoEst" EntityType="Self.tbTipoEst" />
+    <EntitySet Name="tbUsuario" EntityType="Self.tbUsuario" />
+    <AssociationSet Name="FK__tbEstab__municip__09DE7BCC" Association="Self.FK__tbEstab__municip__09DE7BCC">
+      <End Role="tbMunicipio" EntitySet="tbMunicipio" />
+      <End Role="tbEstab" EntitySet="tbEstab" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbEstab__tipoEst__08EA5793" Association="Self.FK__tbEstab__tipoEst__08EA5793">
+      <End Role="tbTipoEst" EntitySet="tbTipoEst" />
+      <End Role="tbEstab" EntitySet="tbEstab" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbPromoca__estab__173876EA" Association="Self.FK__tbPromoca__estab__173876EA">
+      <End Role="tbEstab" EntitySet="tbEstab" />
+      <End Role="tbPromocao" EntitySet="tbPromocao" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbUsuario__estab__1CF15040" Association="Self.FK__tbUsuario__estab__1CF15040">
+      <End Role="tbEstab" EntitySet="tbEstab" />
+      <End Role="tbUsuario" EntitySet="tbUsuario" />
+    </AssociationSet>
+    <EntitySet Name="tbFabricante" EntityType="dbEconomizeeMaisModel.tbFabricante" />
+    <EntitySet Name="tbProduto" EntityType="dbEconomizeeMaisModel.tbProduto" />
+    <AssociationSet Name="FK__tbProduto__fabri__1273C1CD" Association="dbEconomizeeMaisModel.FK__tbProduto__fabri__1273C1CD">
+      <End Role="tbFabricante" EntitySet="tbFabricante" />
+      <End Role="tbProduto" EntitySet="tbProduto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbPromoca__produ__182C9B23" Association="dbEconomizeeMaisModel.FK__tbPromoca__produ__182C9B23">
+      <End Role="tbProduto" EntitySet="tbProduto" />
+      <End Role="tbPromocao" EntitySet="tbPromocao" />
+    </AssociationSet>
+  </EntityContainer>
+  <ComplexType Name="Promocao">
+    <Property Type="Int16" Name="estab" Nullable="false" />
+    <Property Type="String" Name="produto" Nullable="false" />
+    <Property Type="DateTime" Name="inicio" Nullable="false" />
+    <Property Type="DateTimeOffset" Name="fim" Nullable="false" />
+    <Property Type="Decimal" Name="preco" Nullable="false" />
+    <Property Type="Decimal" Name="promocao" Nullable="false" />
+    <Property Type="Int16" Name="prioridade" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="tbFabricante">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="logo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="tbProduto" Relationship="dbEconomizeeMaisModel.FK__tbProduto__fabri__1273C1CD" FromRole="tbFabricante" ToRole="tbProduto" />
+  </EntityType>
+  <EntityType Name="tbProduto">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="String" Nullable="false" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="descricao" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="fabricante" Type="Int16" />
+    <Property Name="img" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="preco" Type="Decimal" Precision="9" Scale="2" />
+    <Property Name="isTop30" Type="Boolean" />
+    <NavigationProperty Name="tbFabricante" Relationship="dbEconomizeeMaisModel.FK__tbProduto__fabri__1273C1CD" FromRole="tbProduto" ToRole="tbFabricante" />
+    <NavigationProperty Name="tbPromocao" Relationship="dbEconomizeeMaisModel.FK__tbPromoca__produ__182C9B23" FromRole="tbProduto" ToRole="tbPromocao" />
+  </EntityType>
+  <Association Name="FK__tbProduto__fabri__1273C1CD">
+    <End Type="dbEconomizeeMaisModel.tbFabricante" Role="tbFabricante" Multiplicity="0..1" />
+    <End Type="dbEconomizeeMaisModel.tbProduto" Role="tbProduto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbFabricante">
+        <PropertyRef Name="codigo" />
+      </Principal>
+      <Dependent Role="tbProduto">
+        <PropertyRef Name="fabricante" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbPromoca__produ__182C9B23">
+    <End Type="dbEconomizeeMaisModel.tbProduto" Role="tbProduto" Multiplicity="1" />
+    <End Type="dbEconomizeeMaisModel.tbPromocao" Role="tbPromocao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbProduto">
+        <PropertyRef Name="codigo" />
+      </Principal>
+      <Dependent Role="tbPromocao">
+        <PropertyRef Name="produto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

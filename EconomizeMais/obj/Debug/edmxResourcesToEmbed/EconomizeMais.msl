@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbEconomizeeMaisModelStoreContainer" CdmEntityContainer="dbEconomizeeMais">
+    <EntitySetMapping Name="tbEstab">
+      <EntityTypeMapping TypeName="dbEconomizeeMaisModel.tbEstab">
+        <MappingFragment StoreEntitySet="tbEstab">
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="tipoEst" ColumnName="tipoEst" />
+          <ScalarProperty Name="rua" ColumnName="rua" />
+          <ScalarProperty Name="nro" ColumnName="nro" />
+          <ScalarProperty Name="bairro" ColumnName="bairro" />
+          <ScalarProperty Name="municipio" ColumnName="municipio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbMunicipio">
+      <EntityTypeMapping TypeName="dbEconomizeeMaisModel.tbMunicipio">
+        <MappingFragment StoreEntitySet="tbMunicipio">
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="uf" ColumnName="uf" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbPromocao">
+      <EntityTypeMapping TypeName="dbEconomizeeMaisModel.tbPromocao">
+        <MappingFragment StoreEntitySet="tbPromocao">
+          <ScalarProperty Name="estab" ColumnName="estab" />
+          <ScalarProperty Name="produto" ColumnName="produto" />
+          <ScalarProperty Name="inicio" ColumnName="inicio" />
+          <ScalarProperty Name="fim" ColumnName="fim" />
+          <ScalarProperty Name="preco" ColumnName="preco" />
+          <ScalarProperty Name="promocao" ColumnName="promocao" />
+          <ScalarProperty Name="prioridade" ColumnName="prioridade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbTipoEst">
+      <EntityTypeMapping TypeName="dbEconomizeeMaisModel.tbTipoEst">
+        <MappingFragment StoreEntitySet="tbTipoEst">
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbUsuario">
+      <EntityTypeMapping TypeName="dbEconomizeeMaisModel.tbUsuario">
+        <MappingFragment StoreEntitySet="tbUsuario">
+          <ScalarProperty Name="estab" ColumnName="estab" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="senha" ColumnName="senha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbFabricante">
+      <EntityTypeMapping TypeName="dbEconomizeeMaisModel.tbFabricante">
+        <MappingFragment StoreEntitySet="tbFabricante">
+          <ScalarProperty Name="logo" ColumnName="logo" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbProduto">
+      <EntityTypeMapping TypeName="dbEconomizeeMaisModel.tbProduto">
+        <MappingFragment StoreEntitySet="tbProduto">
+          <ScalarProperty Name="isTop30" ColumnName="isTop30" />
+          <ScalarProperty Name="preco" ColumnName="preco" />
+          <ScalarProperty Name="img" ColumnName="img" />
+          <ScalarProperty Name="fabricante" ColumnName="fabricante" />
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

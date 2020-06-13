@@ -1,0 +1,70 @@
+﻿@model EconomizeMais.tbEstab
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Estabelecimentos</title>
+</head>
+<body>
+    <div class="container-fluid">
+        
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="1" border="1">
+                    <thead>
+                        <tr>
+                            <td align="left">
+                                <b>Código</b>
+                            </td>
+                            <td align="left">
+                                <b>Nome</b>
+                            </td>
+                            
+                            <td align="left">
+                                <b>Logo</b>
+                            </td>
+                            <td align="left">
+                                <b>Ações</b>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+
+                            <td width="80" height="80">
+                                @Html.DisplayFor(modelItem => modelItem.Codigo)
+                            </td>
+                            <td width="200" height="80">
+                                @Html.DisplayFor(modelItem => modelItem.Nome)
+                            </td>
+
+                            <td width="250" height="80">
+                                @if (Model.Logo != null)
+                                {
+                                    <div class="pull-left" style="margin-right: 10px">
+                                        <img class="img-thumbnail" src="@Url.Action("ExibirLogoEstab", "arquivo", new { id = Model.Codigo })" width="100" height="80" />
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="pull-left" style="margin-right: 10px">
+                                        <img class="img-thumbnail" src="~/Imagens/semimagem.jpg" width="100"
+                                             height="80" />
+                                    </div>
+                                }
+                            </td>
+
+                            <td>
+                                @Html.ActionLink("Alterar", "Edit", new { id = Model.Codigo }) |
+                                @Html.ActionLink("Detalhar", "Details", new { id = Model.Codigo }) |
+                                @Html.ActionLink("Excluir", "Delete", new { id = Model.Codigo })
+                            </td>
+
+                        </tr>
+                    
+
+                </table>
+</body>
+</html>

@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbWebMixariaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tbEstab">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="Logo" Type="varbinary(max)" />
+    <Property Name="LogoTipo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Rua" Type="varchar" MaxLength="50" />
+    <Property Name="Nro" Type="varchar" MaxLength="8" />
+    <Property Name="Bairro" Type="varchar" MaxLength="20" />
+    <Property Name="TipoEst" Type="smallint" />
+    <Property Name="Municipio" Type="smallint" />
+  </EntityType>
+  <EntityType Name="tbFabricante">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="Logo" Type="varbinary(max)" />
+    <Property Name="LogoTipo" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbMunicipio">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="UF" Type="char" MaxLength="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbProdutos">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Descricao" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="FabricanteId" Type="smallint" Nullable="false" />
+    <Property Name="Estoque" Type="int" />
+    <Property Name="Preco" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="Imagem" Type="varbinary(max)" />
+    <Property Name="ImagemTipo" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbPromocao">
+    <Key>
+      <PropertyRef Name="Estab" />
+      <PropertyRef Name="Produto" />
+      <PropertyRef Name="Inicio" />
+      <PropertyRef Name="Fim" />
+    </Key>
+    <Property Name="Estab" Type="int" Nullable="false" />
+    <Property Name="Produto" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Inicio" Type="date" Nullable="false" />
+    <Property Name="Fim" Type="date" Nullable="false" />
+    <Property Name="Preco" Type="decimal" Precision="8" Scale="2" Nullable="false" />
+    <Property Name="Promocao" Type="decimal" Precision="8" Scale="2" Nullable="false" />
+    <Property Name="Prioridade" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="tbTipoEst">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descricao" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbTop30">
+    <Key>
+      <PropertyRef Name="estab" />
+      <PropertyRef Name="produto" />
+      <PropertyRef Name="inicio" />
+      <PropertyRef Name="fim" />
+    </Key>
+    <Property Name="estab" Type="int" Nullable="false" />
+    <Property Name="produto" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="inicio" Type="date" Nullable="false" />
+    <Property Name="fim" Type="date" Nullable="false" />
+    <Property Name="preco" Type="decimal" Precision="9" Scale="2" />
+    <Property Name="promocao" Type="decimal" Precision="9" Scale="2" />
+    <Property Name="item_top" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="tbUsuario">
+    <Key>
+      <PropertyRef Name="estab" />
+      <PropertyRef Name="usuario" />
+    </Key>
+    <Property Name="estab" Type="int" Nullable="false" />
+    <Property Name="nome" Type="varchar" MaxLength="60" />
+    <Property Name="usuario" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="senha" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__tbEstab__Municip__4E88ABD4">
+    <End Role="tbMunicipio" Type="Self.tbMunicipio" Multiplicity="0..1" />
+    <End Role="tbEstab" Type="Self.tbEstab" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbMunicipio">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="tbEstab">
+        <PropertyRef Name="Municipio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbEstab__TipoEst__4D94879B">
+    <End Role="tbTipoEst" Type="Self.tbTipoEst" Multiplicity="0..1" />
+    <End Role="tbEstab" Type="Self.tbEstab" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbTipoEst">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="tbEstab">
+        <PropertyRef Name="TipoEst" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbProduto__Fabri__59063A47">
+    <End Role="tbFabricante" Type="Self.tbFabricante" Multiplicity="1" />
+    <End Role="tbProdutos" Type="Self.tbProdutos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbFabricante">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="tbProdutos">
+        <PropertyRef Name="FabricanteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbPromoca__Estab__5BE2A6F2">
+    <End Role="tbEstab" Type="Self.tbEstab" Multiplicity="1" />
+    <End Role="tbPromocao" Type="Self.tbPromocao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbEstab">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="tbPromocao">
+        <PropertyRef Name="Estab" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbPromoca__Produ__5CD6CB2B">
+    <End Role="tbProdutos" Type="Self.tbProdutos" Multiplicity="1" />
+    <End Role="tbPromocao" Type="Self.tbPromocao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbProdutos">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="tbPromocao">
+        <PropertyRef Name="Produto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbTop30__estab__73BA3083">
+    <End Role="tbEstab" Type="Self.tbEstab" Multiplicity="1" />
+    <End Role="tbTop30" Type="Self.tbTop30" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbEstab">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="tbTop30">
+        <PropertyRef Name="estab" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbTop30__produto__72C60C4A">
+    <End Role="tbProdutos" Type="Self.tbProdutos" Multiplicity="1" />
+    <End Role="tbTop30" Type="Self.tbTop30" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbProdutos">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="tbTop30">
+        <PropertyRef Name="produto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbUsuario__estab__5165187F">
+    <End Role="tbEstab" Type="Self.tbEstab" Multiplicity="1" />
+    <End Role="tbUsuario" Type="Self.tbUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbEstab">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="tbUsuario">
+        <PropertyRef Name="estab" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="dbWebMixariaModelStoreContainer">
+    <EntitySet Name="tbEstab" EntityType="Self.tbEstab" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbFabricante" EntityType="Self.tbFabricante" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbMunicipio" EntityType="Self.tbMunicipio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbProdutos" EntityType="Self.tbProdutos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbPromocao" EntityType="Self.tbPromocao" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbTipoEst" EntityType="Self.tbTipoEst" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbTop30" EntityType="Self.tbTop30" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbUsuario" EntityType="Self.tbUsuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__tbEstab__Municip__4E88ABD4" Association="Self.FK__tbEstab__Municip__4E88ABD4">
+      <End Role="tbMunicipio" EntitySet="tbMunicipio" />
+      <End Role="tbEstab" EntitySet="tbEstab" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbEstab__TipoEst__4D94879B" Association="Self.FK__tbEstab__TipoEst__4D94879B">
+      <End Role="tbTipoEst" EntitySet="tbTipoEst" />
+      <End Role="tbEstab" EntitySet="tbEstab" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbProduto__Fabri__59063A47" Association="Self.FK__tbProduto__Fabri__59063A47">
+      <End Role="tbFabricante" EntitySet="tbFabricante" />
+      <End Role="tbProdutos" EntitySet="tbProdutos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbPromoca__Estab__5BE2A6F2" Association="Self.FK__tbPromoca__Estab__5BE2A6F2">
+      <End Role="tbEstab" EntitySet="tbEstab" />
+      <End Role="tbPromocao" EntitySet="tbPromocao" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbPromoca__Produ__5CD6CB2B" Association="Self.FK__tbPromoca__Produ__5CD6CB2B">
+      <End Role="tbProdutos" EntitySet="tbProdutos" />
+      <End Role="tbPromocao" EntitySet="tbPromocao" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbTop30__estab__73BA3083" Association="Self.FK__tbTop30__estab__73BA3083">
+      <End Role="tbEstab" EntitySet="tbEstab" />
+      <End Role="tbTop30" EntitySet="tbTop30" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbTop30__produto__72C60C4A" Association="Self.FK__tbTop30__produto__72C60C4A">
+      <End Role="tbProdutos" EntitySet="tbProdutos" />
+      <End Role="tbTop30" EntitySet="tbTop30" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbUsuario__estab__5165187F" Association="Self.FK__tbUsuario__estab__5165187F">
+      <End Role="tbEstab" EntitySet="tbEstab" />
+      <End Role="tbUsuario" EntitySet="tbUsuario" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,95 @@
+﻿@model EconomizeMais.tbPromocao
+
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Nova Promoção</title>
+</head>
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>Promoção</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <b>Estabelecimento: </b>
+
+            @Html.DropDownList("estab", null, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Estab, "", new { @class = "text-danger" })
+
+            <br />
+
+            <b>Produto: </b>
+
+            @Html.DropDownList("produto", null, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Produto, "", new { @class = "text-danger" })
+
+            <br />
+
+            <b>Preço: </b>
+
+            @Html.EditorFor(model => model.Preco, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Preco, "", new { @class = "text-danger" })
+
+            <br />
+
+
+            <b>Promoção: </b>
+
+            @Html.EditorFor(model => model.Promocao, new { htmlAttributes = new { @class = "form-control"} })
+            @Html.ValidationMessageFor(model => model.Promocao, "", new { @class = "text-danger" })
+
+            <br />
+
+
+            <b>Início: </b>
+
+            @Html.EditorFor(model => model.Inicio, new { htmlAttributes = new { @class = "form-control", id = "date" } })
+            @Html.ValidationMessageFor(model => model.Inicio, "", new { @class = "text-danger" })
+
+            <br />
+
+            <b>Fim: </b>
+
+            @Html.EditorFor(model => model.Fim, new { htmlAttributes = new { @class = "form-control", id = "date2" } })
+            @Html.ValidationMessageFor(model => model.Fim, "", new { @class = "text-danger" })
+
+            <br />
+
+            <b>Prioridade: </b>
+
+            @Html.EditorFor(model => model.Prioridade, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Prioridade, "", new { @class = "text-danger" })
+
+
+            <br />
+            <br />
+
+            <input type="submit" value="Gravar" class="btn btn-default" />
+
+        </div>
+    }
+    <br />
+    <div>
+        @Html.ActionLink("Voltar", "Catalogo")
+    </div>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="~/Scripts/jquery.mask.js"></script>
+    <script>
+        $("#date").mask("99/99/9999");
+        $("#date2").mask("99/99/9999");
+    </script>
+
+</body>
+</html>
