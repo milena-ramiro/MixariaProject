@@ -1,3 +1,5 @@
+![GitHub](https://img.shields.io/github/license/milena-ramiro/Webservice)
+![GitHub language count](https://img.shields.io/github/languages/count/milena-ramiro/Webservice)
 #   Webservice  :computer:
 ## Webservice Asp .Net - Projeto Mixaria
 
