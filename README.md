@@ -10,5 +10,8 @@
 * Interface simples e intuitiva para que qualquer pessoa consiga utilizá-lo sem grandes dificuldades.
 * Conta com a arquitetura padrão do Xamarin Forms MVVM.
 
+### Avisos
+* O Aplicativo só possuirá sua funcionalidade completa se o Webservice estiver ligado.
+
 
 ![porquinho](https://github.com/milena-ramiro/Mixaria/blob/master/porquinho.gif)
