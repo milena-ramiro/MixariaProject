@@ -1,4 +1,3 @@
-![GitHub top language](https://img.shields.io/github/languages/top/milena-ramiro/Mixaria)
 ![GitHub language count](https://img.shields.io/github/languages/count/milena-ramiro/Mixaria)
 ![GitHub](https://img.shields.io/github/license/milena-ramiro/Mixaria)
 
@@ -12,6 +11,36 @@
 
 ### Avisos
 * O Aplicativo só possuirá sua funcionalidade completa se o Webservice estiver ligado.
+* Necessário mudar o endereço do Webservice de acordo com o novo endereço gerado em sua máquina ou serviço de hospedagem. Portanto, atentar-se ao arquivo ServiceWS dentro da pasta Servicos.
+
+ ```
+public static async Task<ObservableCollection<tbPromocao>> GetProdutos(int Estab)
+{
+    try
+    {
+        using (var client = new HttpClient())
+        {
+            // envia a requisição GET
+            var uri = "http://52.179.98.74:8080/api/promocao/" + Estab; //MUDAR ESTA LINHA!
+            var result = await client.GetStringAsync(uri);
+            produtos = JsonConvert.DeserializeObject<ObservableCollection<tbPromocao>>(result);
+        }
+
+        return produtos;
+
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine(ex);
+        return null;
+    }
+
+}
+ ```
+
+
 
 
 ![porquinho](https://github.com/milena-ramiro/Mixaria/blob/master/porquinho.gif)
+
+[Clique aqui para acessar o Webservice](https://github.com/milena-ramiro/Webservice) :computer:
