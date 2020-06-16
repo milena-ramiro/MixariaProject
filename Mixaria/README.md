@@ -41,5 +41,5 @@ public static async Task<ObservableCollection<tbPromocao>> GetProdutos(int Estab
 
 
 
-![porquinho](https://github.com/milena-ramiro/Mixaria/blob/master/porquinho.gif)
+
 
