@@ -43,4 +43,3 @@ public static async Task<ObservableCollection<tbPromocao>> GetProdutos(int Estab
 
 ![porquinho](https://github.com/milena-ramiro/Mixaria/blob/master/porquinho.gif)
 
-[Clique aqui para acessar o Webservice](https://github.com/milena-ramiro/Webservice) :computer:
