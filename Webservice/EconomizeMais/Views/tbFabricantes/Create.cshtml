@@ -1,0 +1,51 @@
+﻿@model EconomizeMais.Models.FabricantesViewModel
+
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Novo Fabricante</title>
+</head>
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+
+
+    @using (Html.BeginForm("Create", "tbFabricantes",
+            FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Mercado</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+        <b>Descrição: </b>
+
+        @Html.EditorFor(model => model.Nome, new { htmlAttributes = new { @class = "form-control", maxlength = "60", size = "60" } })
+        @Html.ValidationMessageFor(model => model.Nome, "", new { @class = "text-danger" })
+
+        <br />
+
+
+        <b>Logo: </b>
+        <input type="file" id="Logo" name="upload" />
+
+        <br />
+        <br />
+
+        <input type="submit" value="Gravar" class="btn btn-default" />
+
+    </div>
+    }
+    <br />
+    <div>
+        @Html.ActionLink("Voltar", "Catalogo")
+    </div>
+
+</body>
+</html>

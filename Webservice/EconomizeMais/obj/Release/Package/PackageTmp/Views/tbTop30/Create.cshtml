@@ -1,0 +1,93 @@
+﻿@model EconomizeMais.tbTop30
+
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Novo Top 30</title>
+</head>
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+
+
+    @using (Html.BeginForm("Create", "tbTop30",
+            FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Produto</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <b>Estabelecimento: </b>
+
+        @Html.DropDownListFor(m => m.estab,
+                                    (SelectList)ViewBag.estab, "Selecionar", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.estab, "", new { @class = "text-danger" })
+
+        <br />
+
+        <b>Produto: </b>
+
+        @Html.DropDownListFor(m => m.produto,
+                                    (SelectList)ViewBag.produto, "Selecionar", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.produto, "", new { @class = "text-danger" })
+
+        <br />
+
+
+        <b> Início: </b>
+
+        @Html.EditorFor(model => model.inicio, new { htmlAttributes = new { @class = "form-control", id = "date" } })
+        @Html.ValidationMessageFor(model => model.inicio, "", new { @class = "text-danger" })
+
+        <br />
+
+        <b>Fim: </b>
+
+        @Html.EditorFor(model => model.fim, new { htmlAttributes = new { @class = "form-control", id = "date2" } })
+        @Html.ValidationMessageFor(model => model.fim, "", new { @class = "text-danger" })
+
+        <br />
+
+
+        <b> Preço: </b>
+
+        @Html.EditorFor(model => model.preco, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.preco, "", new { @class = "text-danger" })
+
+        <br />
+
+        <b>Promoção: </b>
+
+        @Html.EditorFor(model => model.promocao, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.promocao, "", new { @class = "text-danger" })
+
+        <br />
+
+        <b>Posição Top 30: </b>
+
+        @Html.EditorFor(model => model.item_top, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.item_top, "", new { @class = "text-danger" })
+
+
+        <br />
+
+        <br />
+        <br />
+
+        <input type="submit" value="Gravar" class="btn btn-default" />
+
+    </div>
+    }
+    <br />
+    <div>
+        @Html.ActionLink("Voltar", "Catalogo")
+    </div>
+
+</body>
+</html>

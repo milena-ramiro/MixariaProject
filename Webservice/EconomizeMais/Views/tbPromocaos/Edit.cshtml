@@ -1,0 +1,88 @@
+﻿@model EconomizeMais.tbPromocao
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Alterar</title>
+</head>
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>Promoção</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.estab)
+            @Html.HiddenFor(model => model.produto)
+            @Html.HiddenFor(model => model.inicio.Date)
+            @Html.HiddenFor(model => model.fim.Date)
+
+            <b>Estabelecimento:</b>
+
+            @Html.DisplayFor(model => model.tbEstab.nome)
+
+            <br />
+            <br />
+            <b>Produto:</b>
+
+            @Html.DisplayFor(model => model.tbProduto.descricao)
+
+            <br />
+            <br />
+
+            <b>Início:</b>
+
+            @Html.DisplayFor(model => model.inicio.Date)
+
+            <br />
+            <br />
+            <b>Fim:</b>
+
+            @Html.DisplayFor(model => model.fim.Date)
+
+            <br />
+            <br />
+
+            <b>Preco:</b>
+
+            @Html.EditorFor(model => model.preco, new { htmlAttributes = new { @class = "form-control", maxlength = "60", size = "60" } })
+            @Html.ValidationMessageFor(model => model.preco, "", new { @class = "text-danger" })
+
+            <br />
+            <br />
+
+            <b>Promoção:</b>
+
+            @Html.EditorFor(model => model.promocao, new { htmlAttributes = new { @class = "form-control", maxlength = "60", size = "60" } })
+            @Html.ValidationMessageFor(model => model.promocao, "", new { @class = "text-danger" })
+
+            <br />
+            <br />
+
+            <b>Prioridade:</b>
+
+            @Html.EditorFor(model => model.prioridade, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.prioridade, "", new { @class = "text-danger" })
+
+            <br />
+            <br />
+
+            <input type="submit" value="Gravar" class="btn btn-default" />
+
+        </div>
+    }
+
+    <div>
+        @Html.ActionLink("Voltar", "Index")
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,488 @@
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\ApplicationInsights.config
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\roslyn\csc.exe
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\roslyn\vbc.exe
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\roslyn\VBCSCompiler.exe
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\EconomizeMais.dll.config
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\EconomizeMais.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\EconomizeMais.pdb
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Antlr3.Runtime.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\EntityFramework.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\EntityFramework.SqlServer.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.AI.Web.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.ApplicationInsights.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Newtonsoft.Json.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Owin.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\PagedList.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\PagedList.Mvc.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\System.Web.Helpers.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\System.Web.Mvc.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\System.Web.Optimization.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\System.Web.Razor.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.Deployment.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.Razor.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\WebGrease.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.AI.Web.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.ApplicationInsights.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\PagedList.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\PagedList.Mvc.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\System.Web.Helpers.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\System.Web.Mvc.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\System.Web.Razor.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.Deployment.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.Razor.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\System.Web.Optimization.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Antlr3.Runtime.pdb
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Newtonsoft.Json.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\EntityFramework.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\EntityFramework.SqlServer.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\obj\Release\EconomizeMais.csprojAssemblyReference.cache
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\obj\Release\EconomizeMais.csproj.CopyComplete
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\obj\Release\EconomizeMais.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2)\EconomizeMais\EconomizeMais\obj\Release\EconomizeMais.pdb
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\ApplicationInsights.config
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\roslyn\csc.exe
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\roslyn\vbc.exe
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\roslyn\VBCSCompiler.exe
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\EconomizeMais.dll.config
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\EconomizeMais.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\EconomizeMais.pdb
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Antlr3.Runtime.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\EntityFramework.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\EntityFramework.SqlServer.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.Web.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.ApplicationInsights.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Newtonsoft.Json.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Owin.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\PagedList.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\PagedList.Mvc.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Net.Http.Formatting.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Helpers.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Http.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Http.WebHost.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Mvc.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Optimization.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Razor.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.Deployment.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.Razor.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\WebGrease.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.Web.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.ApplicationInsights.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Newtonsoft.Json.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\PagedList.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\PagedList.Mvc.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Net.Http.Formatting.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Helpers.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Http.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Http.WebHost.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Mvc.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Razor.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.Deployment.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.Razor.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Optimization.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Antlr3.Runtime.pdb
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\EntityFramework.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\EntityFramework.SqlServer.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\obj\Release\EconomizeMais.csprojAssemblyReference.cache
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\obj\Release\EconomizeMais.csproj.CopyComplete
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\obj\Release\EconomizeMais.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais (2) - Copy\EconomizeMais\EconomizeMais\obj\Release\EconomizeMais.pdb
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\ApplicationInsights.config
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\roslyn\csc.exe
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\roslyn\vbc.exe
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\roslyn\VBCSCompiler.exe
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\EconomizeMais.dll.config
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\EconomizeMais.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\EconomizeMais.pdb
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Antlr3.Runtime.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\EntityFramework.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\EntityFramework.SqlServer.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.Web.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.ApplicationInsights.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Authorization.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Routing.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.DotNet.InternalAbstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.DependencyModel.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.Options.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Newtonsoft.Json.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Owin.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\PagedList.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\PagedList.Mvc.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Buffers.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Net.Http.Formatting.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Text.Encodings.Web.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Helpers.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Http.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Http.WebHost.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Mvc.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Optimization.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Razor.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.Deployment.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.Razor.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\WebGrease.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.Web.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.ApplicationInsights.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Authorization.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Routing.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.Options.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.PlatformAbstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Newtonsoft.Json.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\PagedList.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\PagedList.Mvc.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Net.Http.Formatting.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Text.Encodings.Web.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Helpers.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Http.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Http.WebHost.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Mvc.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Razor.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.Deployment.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.Razor.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\System.Web.Optimization.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Antlr3.Runtime.pdb
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\EntityFramework.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\EntityFramework.SqlServer.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\obj\Release\EconomizeMais.csprojAssemblyReference.cache
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\obj\Release\EconomizeMais.csproj.CopyComplete
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\obj\Release\EconomizeMais.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais - Copy\EconomizeMais\EconomizeMais\obj\Release\EconomizeMais.pdb
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\ApplicationInsights.config
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\roslyn\csc.exe
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\roslyn\vbc.exe
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\roslyn\VBCSCompiler.exe
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\EconomizeMais.dll.config
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\EconomizeMais.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\EconomizeMais.pdb
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Antlr3.Runtime.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\EntityFramework.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\EntityFramework.SqlServer.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AI.Web.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.ApplicationInsights.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Authorization.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Routing.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.DotNet.InternalAbstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.DependencyModel.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.Options.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Newtonsoft.Json.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Owin.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\PagedList.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\PagedList.Mvc.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Buffers.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Net.Http.Formatting.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Text.Encodings.Web.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Web.Helpers.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Web.Http.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Web.Http.WebHost.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Web.Mvc.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Web.Optimization.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Web.Razor.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.Deployment.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.Razor.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\WebGrease.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AI.Web.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.ApplicationInsights.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Authorization.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Routing.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.Options.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.PlatformAbstractions.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Newtonsoft.Json.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\PagedList.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\PagedList.Mvc.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Net.Http.Formatting.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Text.Encodings.Web.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Web.Helpers.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Web.Http.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Web.Http.WebHost.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Web.Mvc.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Web.Razor.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.Deployment.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Web.WebPages.Razor.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\System.Web.Optimization.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Antlr3.Runtime.pdb
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\EntityFramework.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\EntityFramework.SqlServer.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\obj\Release\EconomizeMais.csprojAssemblyReference.cache
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\obj\Release\EconomizeMais.csproj.CopyComplete
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\obj\Release\EconomizeMais.dll
+C:\Users\milenaramiro\Desktop\EconomizeMais\EconomizeMais\EconomizeMais\obj\Release\EconomizeMais.pdb

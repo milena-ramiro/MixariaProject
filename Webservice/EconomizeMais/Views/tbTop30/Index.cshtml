@@ -1,0 +1,81 @@
+﻿@model EconomizeMais.tbTop30
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Produtos</title>
+</head>
+<body>
+    <div class="container-fluid">
+        @*<div class="card-header">
+            <i class="fa fa-table"></i> <center> <h3>Cadastro de Produtos</h3> </center>
+        </div>
+        <p>
+            @Html.ActionLink("Novo", "Create")
+        </p>*@
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="1" border="1">
+                    <thead>
+                        <tr>
+                            <td align="left">
+                                <b>Estabelecimento</b>
+                            </td>
+                            <td align="left">
+                                <b>Produto</b>
+                            </td>
+                            <td align="left">
+                                <b>Preço</b>
+
+                            </td>
+                            <td align="left">
+                                <b>Promoção</b>
+
+                            </td>
+                            <td align="left">
+                                <b>Início</b>
+
+                            </td>
+                            <td align="left">
+                                <b>Fim</b>
+
+                            </td>
+                            <td align="left">
+                                <b>Ações</b>
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="150" height="80">
+                                @Html.DisplayFor(modelItem => modelItem.tbEstab.Nome)
+                            </td>
+                            <td width="200" height="80">
+                                @Html.DisplayFor(modelItem => modelItem.tbProdutos.Descricao)
+                            </td>
+                            <td width="80" height="80">
+                                @Html.DisplayFor(modelItem => modelItem.preco)
+                            </td>
+                            <td width="80" height="80">
+                                @Html.DisplayFor(modelItem => modelItem.promocao)
+                            </td>
+                            <td width="150" height="80">
+                                @Html.DisplayFor(modelItem => modelItem.inicio.Date)
+                            </td>
+                            <td width="150" height="80">
+                                @Html.DisplayFor(modelItem => modelItem.fim.Date)
+                            </td>
+                            <td>
+
+                                @Html.ActionLink("Alterar", "Edit", new { produto = Model.produto, estab = Model.estab, inicio = Model.inicio.Date, fim = Model.fim.Date }) |
+                                @Html.ActionLink("Detalhar", "Details", new { produto = Model.produto, estab = Model.estab, inicio = Model.inicio, fim = Model.fim }) |
+                                @Html.ActionLink("Excluir", "Delete", new { produto = Model.produto, estab = Model.estab, inicio = Model.inicio, fim = Model.fim })
+                            </td>
+                        </tr>
+
+
+                </table>
+</body>
+</html>

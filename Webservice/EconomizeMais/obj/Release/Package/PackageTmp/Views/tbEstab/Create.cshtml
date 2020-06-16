@@ -1,0 +1,84 @@
+﻿@model EconomizeMais.Models.EstabViewModel
+
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Novo Estabelecimento</title>
+</head>
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+
+
+    @using (Html.BeginForm("Create", "tbEstab",
+            FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Estabelecimento</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+        <b>Nome: </b>
+
+        @Html.EditorFor(model => model.Nome, new { htmlAttributes = new { @class = "form-control", maxlength = "60", size = "60" } })
+        @Html.ValidationMessageFor(model => model.Nome, "", new { @class = "text-danger" })
+
+        <br />
+
+        <b>Rua: </b>
+
+        @Html.EditorFor(model => model.Rua, new { htmlAttributes = new { @class = "form-control", maxlength = "60", size = "60" } })
+        @Html.ValidationMessageFor(model => model.Rua, "", new { @class = "text-danger" })
+
+        <br />
+
+        <b>Nro.: </b>
+
+        @Html.EditorFor(model => model.Nro, new { htmlAttributes = new { @class = "form-control", maxlength = "60", size = "60" } })
+        @Html.ValidationMessageFor(model => model.Nro, "", new { @class = "text-danger" })
+
+        <br />
+
+        <b>Bairro: </b>
+
+        @Html.EditorFor(model => model.Bairro, new { htmlAttributes = new { @class = "form-control", maxlength = "60", size = "60" } })
+        @Html.ValidationMessageFor(model => model.Bairro, "", new { @class = "text-danger" })
+
+        <br />
+
+        <b>Tipo: </b>
+
+        @Html.DropDownListFor(m => m.TipoEst,
+                                     (SelectList)ViewBag.tipo, "Selecionar", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.TipoEst, "", new { @class = "text-danger" })
+
+        <b>Municipio: </b>
+
+        @Html.DropDownListFor(m => m.MunicipioId,
+                                     (SelectList)ViewBag.municipio, "Selecionar", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.MunicipioId, "", new { @class = "text-danger" })
+
+        <b>Logo: </b>
+
+        <input type="file" id="Logo" name="upload" />
+
+        <br />
+        <br />
+
+        <input type="submit" value="Gravar" class="btn btn-default" />
+
+    </div>
+    }
+    <br />
+    <div>
+        @Html.ActionLink("Voltar", "Catalogo")
+    </div>
+
+</body>
+</html>

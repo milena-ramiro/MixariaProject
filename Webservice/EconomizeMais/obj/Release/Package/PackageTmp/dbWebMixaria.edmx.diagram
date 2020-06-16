@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="28eedb6d0d16465b863820467576e422" Name="Diagram1">
+        <EntityTypeShape EntityType="dbWebMixariaModel.tbEstab" Width="1.5" PointX="3" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbWebMixariaModel.tbFabricante" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbWebMixariaModel.tbMunicipio" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbWebMixariaModel.tbPromocao" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbWebMixariaModel.tbTipoEst" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbWebMixariaModel.tbUsuario" Width="1.5" PointX="5.25" PointY="7" IsExpanded="true" />
+        <AssociationConnector Association="dbWebMixariaModel.FK__tbEstab__Municip__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="dbWebMixariaModel.FK__tbEstab__TipoEst__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="dbWebMixariaModel.FK__tbPromoca__Estab__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="dbWebMixariaModel.FK__tbUsuario__estab__5165187F" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="dbWebMixariaModel.tbProdutos" Width="1.5" PointX="3" PointY="8" />
+        <EntityTypeShape EntityType="dbWebMixariaModel.tbTop30" Width="1.5" PointX="8.25" PointY="5.5" />
+        <AssociationConnector Association="dbWebMixariaModel.FK__tbTop30__estab__73BA3083" />
+        <AssociationConnector Association="dbWebMixariaModel.FK__tbProduto__Fabri__59063A47" />
+        <AssociationConnector Association="dbWebMixariaModel.FK__tbPromoca__Produ__5CD6CB2B" />
+        <AssociationConnector Association="dbWebMixariaModel.FK__tbTop30__produto__72C60C4A" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

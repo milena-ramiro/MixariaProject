@@ -1,0 +1,102 @@
+﻿@model EconomizeMais.tbUsuario
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Mixaria </title>
+
+    <environment include="Development">
+        <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+</head>
+
+<body class="bg-dark">
+    <div class="container">
+        <div class="card card-login mx-auto mt-5">
+            <div class="card-header">Login</div>
+            <div class="card-body">
+                <form asp-action="Logar">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+
+                        <div class="form-group">
+                            <label asp-for="Usuário" for="usrname"><span class="glyphicon glyphicon-user"></span> Usuário</label>
+                            <input asp-for="usuario" data-val="true" type="text" class="form-control" id="usrname" placeholder="Informe o nome do usuário">
+                            <span asp-validation-for="Usuario" class="text-danger"></span>
+                        </div>
+
+
+                        @*<div class="card-header">Usuário</div>
+                    <label asp-for="Usuário" class="control-label"></label>
+                    <input asp-for="usuario" data-val="true" class="form-control" />
+                    <span asp-validation-for="Usuario" class="text-danger"></span>*@
+
+
+
+                    </div>
+                    @if (TempData["Message"] != null)
+                    {
+                        <span class="text-danger" style="color:red;">@TempData["Message"].ToString()</span>
+                    }
+                    <div class="form-group">
+
+                        <label asp-for="Senha"><span class="glyphicon glyphicon-eye-open"></span> Senha</label>
+                        <input asp-for="senha" type="password" class="form-control" id="psw" placeholder="Informe a senha">
+                        <span asp-validation-for="Senha" class="text-danger"></span>
+
+
+                        @*<div class="card-header">Senha</div>
+                    <label asp-for="Senha" class="control-label"></label>
+                    <input asp-for="senha" class="form-control" type="password" />
+                    <span asp-validation-for="Senha" class="text-danger"></span>*@
+
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="" checked>Lembrar-me</label>
+                        </div>
+                        <button type="submit" value="Login" class="btn btn-default btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+
+                        @*<input type="submit" value="Login" class="btn btn-primary btn-block" />*@
+
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-default btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancelar</button>
+                <p>Não é um membro? <a href="#">Assine</a></p>
+                <p>Esqueceu a <a href="#">Senha?</a></p>
+            </div>
+
+        </div>
+    </div>
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+</body>
+</html>
+
+@section Scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+}

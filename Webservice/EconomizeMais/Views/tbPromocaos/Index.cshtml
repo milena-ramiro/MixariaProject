@@ -1,0 +1,84 @@
+﻿@model IEnumerable<EconomizeMais.tbPromocao>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Produtos</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="card-header">
+            <i class="fa fa-table"></i> <center> <h3>Cadastro de Promoções</h3> </center>
+        </div>
+        <p>
+            @Html.ActionLink("Novo", "Create")
+        </p>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="1" border="1">
+                    <thead>
+                        <tr>
+                            <td align="left">
+                                <b>Estabelecimento</b>
+                            </td>
+                            <td align="left">
+                                <b>Produto</b>
+                            </td>
+                            <td align="left">
+                                <b>Preço</b>
+
+                            </td>
+                            <td align="left">
+                                <b>Promoção</b>
+
+                            </td>
+                            <td align="left">
+                                <b>Início</b>
+
+                            </td>
+                            <td align="left">
+                                <b>Fim</b>
+
+                            </td>
+                            <td align="left">
+                                <b>Ações</b>
+
+                            </td>
+                        </tr>
+
+
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.tbEstab.nome)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.tbProduto.descricao)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.preco)
+                                </td>
+                                <td>
+                                   @Html.DisplayFor(modelItem => item.promocao)
+                                </td>
+                                <td>
+                                   @Html.DisplayFor(modelItem => item.inicio.Date)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.fim.Date)
+                                </td>
+                                <td>
+                                    
+                                    @Html.ActionLink("Alterar", "Edit", new { id = item.produto, estab = item.estab, inicio = item.inicio.Date, fim = item.fim.Date}) |
+                                    @Html.ActionLink("Detalhar", "Details", new { id = item.produto, estab = item.estab, inicio = item.inicio, fim = item.fim }) |
+                                    @Html.ActionLink("Excluir", "Delete", new { id = item.produto, estab = item.estab, inicio = item.inicio, fim = item.fim })
+                                </td>
+                            </tr>
+                        }
+
+                </table>
+</body>
+</html>
