@@ -21,4 +21,3 @@ hospedamos ele na plataforma de serviços Azure.
 ### Agradecimentos
 * Agradeço ao meu colega de trabalho Pedro Martins pela ajuda na criação deste projeto.
 
-[Clique aqui para acessar o app Mixaria](https://github.com/milena-ramiro/Mixaria)  :money_with_wings:
