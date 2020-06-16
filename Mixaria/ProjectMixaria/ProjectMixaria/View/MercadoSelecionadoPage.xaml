@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:ProjectMixaria.Util"
+             xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             mc:Ignorable="d"
+             x:Class="ProjectMixaria.View.MercadoSelecionadoPage"
+             >
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ByteArrayToImageConverter x:Key="severityTypeImageConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <NavigationPage.TitleView>
+        <StackLayout >
+            <StackLayout Orientation="Horizontal">
+
+                <Image Style="{StaticResource imgCabec}"/>
+
+                <Label  Text="{Binding NomeMercado}"
+                        Style="{StaticResource lblCabec}"
+                        />
+
+            </StackLayout>
+
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+
+        <AbsoluteLayout>
+            <StackLayout AbsoluteLayout.LayoutFlags="All" 
+                         AbsoluteLayout.LayoutBounds="0,0,1,1">
+
+                <StackLayout AbsoluteLayout.LayoutFlags="All"
+                             AbsoluteLayout.LayoutBounds="0,0,.2,.2"
+                             VerticalOptions="Start"
+                             HorizontalOptions="FillAndExpand"
+                             BackgroundColor="{Binding CorConexao}"
+                             IsVisible="{Binding IsConected}" >
+
+                    <Label Text="{Binding StatusConexao}" TextColor="White"/>
+                </StackLayout>
+
+                <flv:FlowListView FlowColumnCount="2"
+	                              FlowItemsSource="{Binding Produtos}"
+                                  >
+                    <flv:FlowListView.FlowColumnTemplate>
+                        <DataTemplate>
+                            <ContentView>
+                                <ContentView.Content>
+                                    <flv:FlowViewCell IsEnabled="False" Margin="8" >
+
+                                        <Frame  Margin="2"
+                                                Padding="2"
+                                                BorderColor="White"
+                                                CornerRadius="4"
+                                                HasShadow="true"
+                                                HeightRequest="270"
+                                                WidthRequest="200">
+
+                                            <StackLayout
+                                                    Padding="2"
+                                                    HorizontalOptions="FillAndExpand"
+                                                    Spacing="5"
+                                                    VerticalOptions="FillAndExpand">
+
+
+                                                <Image
+                                                    Margin="2"
+                                                    Aspect="AspectFill"
+                                                    BackgroundColor="{DynamicResource Gray-200}"
+                                                    HorizontalOptions="Center"
+                                                    Source="{Binding tbProduto.Imagem,Converter={StaticResource severityTypeImageConverter}}"
+                                                    VerticalOptions="Start"
+                                                    WidthRequest="120"
+                                                    HeightRequest="120"/>
+
+                                                <!--  Product name  -->
+                                                <Label
+                                                    Margin="0,0,0,2"
+                                                    FontSize="22"
+                                                    HorizontalOptions="Center"
+                                                    VerticalOptions="CenterAndExpand"
+                                                    LineHeight="1.25"
+                                                    Text="{Binding tbProduto.Descricao}"
+                                                    TextColor="Black" />
+
+                                                <!--  Product preço  -->
+                                                
+                                                <Label
+                                                    FontSize="25"
+                                                    LineHeight="1.25"
+                                                    Text="{Binding Promocao, StringFormat='R$ {0:F}'}"
+                                                    TextColor="#9932CC" />
+
+                                                
+
+                                            </StackLayout>
+
+                                        </Frame>
+
+
+                                    </flv:FlowViewCell>
+                                </ContentView.Content>
+                            </ContentView>
+                        </DataTemplate>
+                    </flv:FlowListView.FlowColumnTemplate>
+
+
+                </flv:FlowListView>
+            </StackLayout>
+
+            <StackLayout AbsoluteLayout.LayoutFlags="All"
+                         AbsoluteLayout.LayoutBounds="0,0,1,1" 
+                         IsVisible="{Binding Carregando}">
+                
+                <forms:AnimationView 
+	                        x:Name="animationView" 
+	                        Animation="loading-produtos.json" 
+	                        Loop="True" 
+	                        AutoPlay="True"
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="FillAndExpand" />
+                <forms:AnimationView 
+	                        x:Name="animationView1" 
+	                        Animation="loading-produtos.json" 
+	                        Loop="True" 
+	                        AutoPlay="True"
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="FillAndExpand" />
+            </StackLayout>
+
+        </AbsoluteLayout>
+
+    </ContentPage.Content>
+</ContentPage>

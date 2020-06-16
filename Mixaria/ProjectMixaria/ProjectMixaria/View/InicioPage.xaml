@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:ProjectMixaria.Util"
+             mc:Ignorable="d"
+             x:Class="ProjectMixaria.View.InicioPage"
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+
+        <AbsoluteLayout>
+            <local:GradientColorStack StartColor="#FFFFFF"
+                                      EndColor="#9932CC"
+                                      AbsoluteLayout.LayoutFlags="All"
+                                      AbsoluteLayout.LayoutBounds="0,0,1,1" >
+
+                <StackLayout  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+
+                    <StackLayout VerticalOptions="CenterAndExpand" Margin="0, 30, 0, 0" HorizontalOptions="CenterAndExpand">
+
+                        <Image  Source="MixariaChaveiro.png"
+                                HorizontalOptions="CenterAndExpand"
+                                VerticalOptions="CenterAndExpand"
+                                WidthRequest="350"
+                                HeightRequest="250"
+                                />
+
+                    </StackLayout>
+
+                    <StackLayout VerticalOptions="EndAndExpand" Margin="0, 0, 0, 20" Spacing="15">
+
+                        <Button Text="TOP 30"
+                                Style="{StaticResource Key=btnInicio}"
+                                Opacity="{Binding Opacidade2}"
+                                Command="{Binding AcessarTopCommand}"
+                                />
+
+
+                        <Button Text="MERCADOS"
+                                Style="{StaticResource Key=btnInicio}"
+                                Opacity="{Binding Opacidade1}"
+                                Command="{Binding AcessarMercadosCommand}"
+                                />
+
+                    </StackLayout>
+
+                </StackLayout>
+
+            </local:GradientColorStack>
+
+
+
+            <StackLayout AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1" IsVisible="{Binding Carregando}">
+                <local:GradientColorStack StartColor="#FFFFFF" EndColor="#9932CC" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+
+                    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" >
+
+                        <forms:AnimationView 
+	                                    x:Name="animationView" 
+	                                    Grid.Row="1"
+	                                    Animation="carregando-porco.json" 
+	                                    Loop="True" 
+	                                    AutoPlay="True"
+                                        HeightRequest="150"
+                                        WidthRequest="150"/>
+
+                        <Label 
+                            TextColor="#FFFFFF"
+                            Text="Carregando..."
+                            FontSize="20"
+                            FontFamily="{StaticResource fonteCarregando}" />
+
+                    </StackLayout>
+                </local:GradientColorStack>
+            </StackLayout>
+
+        </AbsoluteLayout>
+
+    </ContentPage.Content>
+</ContentPage>

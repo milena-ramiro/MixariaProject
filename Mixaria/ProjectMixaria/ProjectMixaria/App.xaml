@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ProjectMixaria.App">
+    <Application.Resources>
+
+        <ResourceDictionary>
+
+            <OnPlatform x:TypeArguments="x:String" x:Key="fonteBotoes">
+                <On Platform="iOS" Value="Christopher-Done" />
+                <On Platform="Android" Value="Christopher-Done.ttf#Christopher-Done" />
+            </OnPlatform>
+
+            <OnPlatform x:TypeArguments="x:String" x:Key="fonteCarregando">
+                <On Platform="iOS" Value="Iconic-Bold-trial" />
+                <On Platform="Android" Value="Iconic-Bold-trial.ttf#Iconic-Bold-trial" />
+            </OnPlatform>
+
+            <OnPlatform x:TypeArguments="x:String" x:Key="fonteCabecalho">
+                <On Platform="iOS" Value="MINION-PRO-COND" />
+                <On Platform="Android" Value="MINION-PRO-COND.OTF#MINION-PRO-COND" />
+            </OnPlatform>
+
+            <Style TargetType="Button" x:Key="btnInicio">
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="45"/>
+                <Setter Property="BorderWidth" Value="3.5"/>
+                <Setter Property="CornerRadius" Value="100"/>
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+                <Setter Property="BorderColor" Value="White"/>
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                <Setter Property="VerticalOptions" Value="End"/>
+                <Setter Property="HeightRequest" Value="90"/>
+                <Setter Property="FontFamily" Value="{StaticResource fonteBotoes}"/>
+            </Style>
+           
+
+            <Style TargetType="Label" x:Key="lblCabec">
+                <Setter Property="HorizontalTextAlignment" Value="Start"/>
+                <Setter Property="VerticalTextAlignment" Value="End"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="FontFamily" Value="{StaticResource fonteCabecalho}"/>
+            </Style>
+
+            <Style TargetType="Image" x:Key="imgCabec">
+                <Setter Property="Source" Value="icone.png"/>
+                <Setter Property="WidthRequest" Value="50"/>
+                <Setter Property="VerticalOptions" Value="End"/>
+            </Style>
+
+            <Style TargetType="ListView" ApplyToDerivedTypes="True">
+                <Setter Property="HasUnevenRows" Value="True"/>
+                <Setter Property="SelectionMode" Value="None"/>
+                <Setter Property="Margin" Value="10"/>
+                <Setter Property="VerticalScrollBarVisibility" Value="Never"/>
+                <Setter Property="SeparatorVisibility" Value="None"/>
+            </Style>
+            
+        </ResourceDictionary>
+        
+    </Application.Resources>
+</Application>

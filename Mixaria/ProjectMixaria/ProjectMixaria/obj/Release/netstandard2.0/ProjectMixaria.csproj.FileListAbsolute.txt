@@ -1,0 +1,31 @@
+C:\PastaMixaria\ProjectMixaria - Copia (3)\ProjectMixaria\ProjectMixaria\bin\Release\netstandard2.0\ProjectMixaria.deps.json
+C:\PastaMixaria\ProjectMixaria - Copia (3)\ProjectMixaria\ProjectMixaria\bin\Release\netstandard2.0\ProjectMixaria.dll
+C:\PastaMixaria\ProjectMixaria - Copia (3)\ProjectMixaria\ProjectMixaria\bin\Release\netstandard2.0\ProjectMixaria.pdb
+C:\PastaMixaria\ProjectMixaria - Copia (3)\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\ProjectMixaria.csprojAssemblyReference.cache
+C:\PastaMixaria\ProjectMixaria - Copia (3)\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\PastaMixaria\ProjectMixaria - Copia (3)\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\View\Erro.xaml.g.cs
+C:\PastaMixaria\ProjectMixaria - Copia (3)\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\View\InicioPage.xaml.g.cs
+C:\PastaMixaria\ProjectMixaria - Copia (3)\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\View\MercadoSelecionadoPage.xaml.g.cs
+C:\PastaMixaria\ProjectMixaria - Copia (3)\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\View\MercadosPage.xaml.g.cs
+C:\PastaMixaria\ProjectMixaria - Copia (3)\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\View\Top30Page.xaml.g.cs
+C:\PastaMixaria\ProjectMixaria - Copia (3)\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\ProjectMixaria.csproj.CoreCompileInputs.cache
+C:\PastaMixaria\ProjectMixaria - Copia (3)\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\ProjectMixaria.AssemblyInfoInputs.cache
+C:\PastaMixaria\ProjectMixaria - Copia (3)\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\ProjectMixaria.AssemblyInfo.cs
+C:\PastaMixaria\ProjectMixaria - Copia (3)\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\XamlC.stamp
+C:\PastaMixaria\ProjectMixaria - Copia (3)\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\ProjectMixaria.dll
+C:\PastaMixaria\ProjectMixaria - Copia (3)\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\ProjectMixaria.pdb
+C:\Users\milena.GIGAFORT\Desktop\ProjectMixaria\ProjectMixaria\ProjectMixaria\bin\Release\netstandard2.0\ProjectMixaria.deps.json
+C:\Users\milena.GIGAFORT\Desktop\ProjectMixaria\ProjectMixaria\ProjectMixaria\bin\Release\netstandard2.0\ProjectMixaria.dll
+C:\Users\milena.GIGAFORT\Desktop\ProjectMixaria\ProjectMixaria\ProjectMixaria\bin\Release\netstandard2.0\ProjectMixaria.pdb
+C:\Users\milena.GIGAFORT\Desktop\ProjectMixaria\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\ProjectMixaria.csprojAssemblyReference.cache
+C:\Users\milena.GIGAFORT\Desktop\ProjectMixaria\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\milena.GIGAFORT\Desktop\ProjectMixaria\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\View\Erro.xaml.g.cs
+C:\Users\milena.GIGAFORT\Desktop\ProjectMixaria\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\View\InicioPage.xaml.g.cs
+C:\Users\milena.GIGAFORT\Desktop\ProjectMixaria\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\View\MercadoSelecionadoPage.xaml.g.cs
+C:\Users\milena.GIGAFORT\Desktop\ProjectMixaria\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\View\MercadosPage.xaml.g.cs
+C:\Users\milena.GIGAFORT\Desktop\ProjectMixaria\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\View\Top30Page.xaml.g.cs
+C:\Users\milena.GIGAFORT\Desktop\ProjectMixaria\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\ProjectMixaria.AssemblyInfoInputs.cache
+C:\Users\milena.GIGAFORT\Desktop\ProjectMixaria\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\ProjectMixaria.AssemblyInfo.cs
+C:\Users\milena.GIGAFORT\Desktop\ProjectMixaria\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\milena.GIGAFORT\Desktop\ProjectMixaria\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\ProjectMixaria.dll
+C:\Users\milena.GIGAFORT\Desktop\ProjectMixaria\ProjectMixaria\ProjectMixaria\obj\Release\netstandard2.0\ProjectMixaria.pdb

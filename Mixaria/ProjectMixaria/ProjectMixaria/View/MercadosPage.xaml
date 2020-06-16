@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ProjectMixaria.View.MercadosPage"
+             xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+             xmlns:local="clr-namespace:ProjectMixaria.Util"
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ByteArrayToImageConverter x:Key="severityTypeImageConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" >
+
+            <Image Style="{StaticResource imgCabec}" />
+
+            <Label Text="MERCADOS"
+                   Style="{StaticResource lblCabec}"
+                   />
+
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <AbsoluteLayout>
+
+            <StackLayout AbsoluteLayout.LayoutFlags="All"
+                         AbsoluteLayout.LayoutBounds="0,0,1,1"
+                         >
+
+                <StackLayout AbsoluteLayout.LayoutFlags="All"
+                             AbsoluteLayout.LayoutBounds="0,0,.2,.2"
+                             VerticalOptions="Start"
+                             HorizontalOptions="FillAndExpand"
+                             BackgroundColor="{Binding CorConexao}"
+                             IsVisible="{Binding IsConected}">
+
+                    <Label Text="{Binding StatusConexao}" TextColor="White" />
+                </StackLayout>
+
+                <StackLayout Spacing="20">
+
+                    <flv:FlowListView FlowColumnCount="2"
+	                                  FlowItemsSource="{Binding Estabelecimentos}" 
+                                      FlowItemTappedCommand="{Binding SelectedItemMercado, Mode=Default}"
+                                      >
+
+                        <flv:FlowListView.FlowColumnTemplate>
+                            <DataTemplate>
+                                <ContentView>
+                                    <ContentView.Content>
+                                        <flv:FlowViewCell>
+
+                                            <Frame  Margin="8"
+                                                    Padding="2"
+                                                    BorderColor="White"
+                                                    CornerRadius="4"
+                                                    HasShadow="true"
+                                                    HeightRequest="220"
+                                                    WidthRequest="200">
+
+                                                <StackLayout Margin="2"
+                                                             Padding="0"
+                                                             HorizontalOptions="CenterAndExpand"
+                                                             Spacing="5"
+                                                             VerticalOptions="CenterAndExpand">
+
+                                                    <Image
+                                                            Margin="0,0,0,2"
+                                                            Aspect="AspectFill"
+                                                            BackgroundColor="Transparent"
+                                                            HorizontalOptions="Center"
+                                                            Source="{Binding Logo,Converter={StaticResource severityTypeImageConverter}}"
+                                                            VerticalOptions="Center"
+                                                            WidthRequest="170"
+                                                            HeightRequest="140"/>
+
+                                                    <!--  Mercado name  -->
+                                                    <Label
+                                                            Margin="0,0,0,2"
+                                                            FontSize="22"
+                                                            HorizontalOptions="Center"
+                                                            VerticalOptions="EndAndExpand"
+                                                            LineHeight="1.25"
+                                                            Text="{Binding Nome}"
+                                                            TextColor="Black" />
+                                                </StackLayout>
+
+                                            </Frame>
+                                        </flv:FlowViewCell>
+                                    </ContentView.Content>
+                                </ContentView>
+                            </DataTemplate>
+                        </flv:FlowListView.FlowColumnTemplate>
+                    </flv:FlowListView>
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout AbsoluteLayout.LayoutFlags="All"
+                         AbsoluteLayout.LayoutBounds="0,0,1,1" 
+                         IsVisible="{Binding IsBusy}"
+                         HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" >
+                
+                <forms:AnimationView 
+	                        x:Name="animationView" 
+	                        Animation="charging.json" 
+	                        Loop="True" 
+	                        AutoPlay="True"
+                            WidthRequest="100"
+                            HeightRequest="100"/>
+
+                <Label 
+                    TextColor="#9933cc"
+                    Text="Aguarde..."
+                    FontSize="20"
+                    FontFamily="{StaticResource fonteCarregando}" 
+                    HorizontalOptions="Center"/>
+
+            </StackLayout>
+
+        </AbsoluteLayout>
+
+    </ContentPage.Content>
+</ContentPage>
