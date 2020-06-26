@@ -1,4 +1,4 @@
-![GitHub](https://img.shields.io/github/license/milena-ramiro/Mixaria)
+
 
 # :money_with_wings: Mixaria
 ## Projeto Mixaria em Xamarin Forms
