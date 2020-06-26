@@ -3,6 +3,8 @@
 # :money_with_wings: Mixaria
 ## Projeto Mixaria em Xamarin Forms
 
+![](https://github.com/milena-ramiro/MixariaProject/blob/master/Mixaria/Mixaria_Home.png)
+
 ### Sobre o Projeto
 * O Projeto Mixaria tem como intuito ajudar as pessoas economizarem, dando-lhes a capacidade de comparar os preços do mesmo produto em diferentes mercados.
 * Interface simples e intuitiva para que qualquer pessoa consiga utilizá-lo sem grandes dificuldades.
